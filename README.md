@@ -1,7 +1,7 @@
 
 ## Kafka-Validator
 
-Kafka Validator UI is a web tool to verify an connects kafka cluster . 
+Kafka Validator UI is a web tool to verify and connects kafka cluster . 
 
 <img style="width:100%;" src="images/kakfa-validator-cluster.png">
 
