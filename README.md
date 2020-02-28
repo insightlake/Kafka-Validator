@@ -1,12 +1,32 @@
 
 ## Kafka-Validator
 
-Kafka Validator UI is a web tool to verify and connects kafka cluster . 
+Kafka Validator is a Web UI and command line utility to validate a Kafka cluster. 
 
+Test Cases
+------
+Kafka Validator uses the configuration to conduct set of test cases. Following are few examples:
+* Topic - Connect, authenticate, create a topic, perform some operations and delete a topic
+* Data - Produce JSON and AVRO packets and recieve the same
+* Schema - Connect, authenticate, create a new schema and delete schema
+* Connector - Connect, authenticate, create a simple File sink connector and validate the data
+* ACLs - Create a topic, assign ACLs and validate the permissions
+* REST Proxy - Connect, authenticate, send and recieve messages
+* KSQL - Test creation of streams and tables
+* Zookeeper - Validate Zookeeper quorum
+* Control Center - Connect and authenticate
+
+Web UI
+------
+Create a cluster
 <img style="width:100%;" src="images/kakfa-validator-cluster.png">
 
+Cluster Verification
 <img style="width:100%;" src="images/verify-cluster.png">
 
+Command Line
+------
+bin/kvalidate config.properties
 
 To learn more, check out [http://insightlake.com/kafkavalidator.html](http://insightlake.com/kafkavalidator.html)
 
