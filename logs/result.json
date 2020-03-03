@@ -1,0 +1,77 @@
+{
+  "Status": [
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "creating topic testTopic with replication 3 and partitions 2",
+      "description": "text",
+      "componentName": "testTopic",
+      "category": "Topic",
+      "status": "Completed"
+    },
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "creating Schema registy with name testSchema ",
+      "description": "text",
+      "componentName": "testSchema",
+      "category": "Schema",
+      "status": "Completed"
+    },
+    {
+      "result": "I/O error on PUT request for \"http://localhost:18083/connectors/testConnector/config\": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)",
+      "component": "Kafka",
+      "test": "creating FileStreamSinkConnector Connector with name testConnector ",
+      "description": "text",
+      "componentName": "testConnector",
+      "category": "Connector",
+      "status": "Fail"
+    },
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "Creating plain string producer ",
+      "description": "text",
+      "componentName": "Plain-Producer",
+      "category": "Producer",
+      "status": "Completed"
+    },
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "Creating plain string Consumer ",
+      "description": "text",
+      "componentName": "Plain-Consumer",
+      "category": "Consumer",
+      "status": "Completed"
+    },
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "Delete testTopic",
+      "description": "text",
+      "componentName": "testTopic",
+      "category": "Topic",
+      "status": "Completed"
+    },
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "Creating Avro Schema producer ",
+      "description": "text",
+      "componentName": "Avro-Producer",
+      "category": "Producer",
+      "status": "Completed"
+    },
+    {
+      "result": "Success",
+      "component": "Kafka",
+      "test": "Creating Avro Schema Consumer ",
+      "description": "text",
+      "componentName": "Avro-Consumer",
+      "category": "Consumer",
+      "status": "Completed"
+    }
+  ],
+  "Result": "Fail"
+}

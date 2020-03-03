@@ -45,6 +45,6 @@ for f in $EDP_HOME/libs/*.jar; do
 done
 
 echo "Starting kafka-validator  ..."
-java -jar $EDP_HOME/libs/edp-cluster-verification-1.0-jar-with-dependencies.jar com.insightlake.edp.cluster.verification.ClusterVerification $EDP_HOME/conf/config.properties
+java -cp $EDP_HOME/libs/edp-cluster-verification-1.0-jar-with-dependencies.jar com.insightlake.edp.cluster.verification.ClusterVerification $EDP_HOME/conf/config.properties
 
 
