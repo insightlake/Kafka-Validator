@@ -48,5 +48,5 @@ echo "Starting kafka-validator backend ..."
 nohup java -Dthin.root=$EDP_HOME/libs/thin/root -jar $EDP_HOME/libs/thin/root/edp-cluster-verification-1.0.jar --spring.config.name=h2 --spring.config.location=$EDP_HOME/conf/h2.properties >/dev/null 2>&1 &
 
 echo "Starting kafka-validator UI"
-nohup java -jar $EDP_HOME/libs/edp-cluster-verification-ui-1.0.jar com.insightlake.edp.cluster.verification.Application --spring.config.name=ui --spring.config.location=file:///$EDP_HOME/conf/ui.properties >/dev/null 2>&1 &
+nohup java -jar $EDP_HOME/libs/edp-cluster-verification-ui-1.0.jar com.insightlake.edp.cluster.verification.Application --spring.config.name=ui --spring.config.location=$EDP_HOME/conf/ui.properties >/dev/null 2>&1 &
 
