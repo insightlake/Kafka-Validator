@@ -34,7 +34,7 @@ Installation
 ------
 * Download or clone the repository. 
 * Run bin/insightlake command.
-* Open browser with URL as http://localhost:8080/
+* Open browser with URL as http://localhost:9090/
 * Change configuration in /conf folder to set different ports
 * By default H2 database is used.
 * If you want to change Database H2 to mysql, Configure mysql proeprty in jdbc.properties file.
