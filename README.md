@@ -40,6 +40,12 @@ Installation
 * If you want to change Database H2 to mysql, Configure mysql proeprty in jdbc.properties file.
 * Configure new changes in insightlake script.
 
+Installation using docker 
+------
+* Download or clone the repository. 
+* cd /docker
+* Run `docker-compose -f docker-compose.yaml up --build`
+* Open browser with URL as http://localhost:8080/
 
 ## Demo Link
 https://insightlake.s3.amazonaws.com/releases/kafkavalidator/index.html
