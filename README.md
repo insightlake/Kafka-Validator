@@ -28,7 +28,7 @@ Command Line
 ------
 bin/kvalidate config.properties
 
-To learn more, check out [http://insightlake.com/kafkavalidator.html](http://insightlake.com/kafkavalidator.html)
+To learn more, check out [http://www.insightlake.com/kafka-validator.html](http://www.insightlake.com/kafka-validator.html)
 
 Installation
 ------
