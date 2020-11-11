@@ -52,7 +52,7 @@ https://insightlake.s3.amazonaws.com/releases/kafkavalidator/index.html
 
 License - Free for commercial use
 ------
-InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
+InsightLake Kafka Validator is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
 
 Getting Help
 ----------
